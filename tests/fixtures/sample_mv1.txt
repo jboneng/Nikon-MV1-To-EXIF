@@ -1,0 +1,6 @@
+Film speed,Film number,Camera ID
+400,32,000
+Frame number,Shutter speed,Aperture,Focal length,Lens maximum aperture,Metering system,Exposure mode,Flash sync mode,Exposure compensation value,EV difference in Manual,Flash exposure compensation value,Speedlight setting,Multiple exposure,Lock,Vibration Reduction,Date(yy/mm/dd),Time
+01,100,F11,35,F1.8,Color matrix,A,Front curtain sync,0.0,0.0,0.0,non-TTL auto flash,None,AE Unlock,VR off,2026/06/08,07:00
+02,60,F14,35,F1.8,Color matrix,A,Front curtain sync,0.0,0.0,0.0,non-TTL auto flash,None,AE Unlock,VR off,2026/06/08,07:01
+03,80,F6.3,35,F1.8,Color matrix,A,Front curtain sync,0.0,0.0,0.0,non-TTL auto flash,None,AE Unlock,VR off,2026/06/08,07:03
