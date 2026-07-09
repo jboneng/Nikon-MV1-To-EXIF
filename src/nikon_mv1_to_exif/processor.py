@@ -7,6 +7,9 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+from nikon_mv1_to_exif.runtime_bootstrap import prepare_pyexiv2_runtime
+
+prepare_pyexiv2_runtime()
 import pyexiv2
 
 from nikon_mv1_to_exif.exif_builder import build_exif_tags

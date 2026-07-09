@@ -46,6 +46,27 @@ pip install -e ".[dev]"
 python -m nikon_mv1_to_exif
 ```
 
+## Windows x64 standalone build
+
+Build a self-contained Windows x64 package (no Python install required):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\build_windows.ps1
+```
+
+Output:
+
+- `dist\NikonMV1ToEXIF-win64\` — portable folder with `NikonMV1ToEXIF.exe`
+- `dist\NikonMV1ToEXIF-win64.zip` — zip archive of the same folder
+
+Copy the folder or zip to any Windows x64 machine and run `NikonMV1ToEXIF.exe`.
+
+Important:
+
+- Keep `NikonMV1ToEXIF.exe` and the `_internal` folder together in the same directory.
+- Extract the zip fully before running (do not run directly from inside the zip).
+- If Qt fails to load, check that no other Qt/Python install is interfering; the build bundles its own Qt runtime.
+
 ## Run tests
 
 ```bash

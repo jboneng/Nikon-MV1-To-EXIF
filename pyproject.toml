@@ -16,6 +16,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0"]
+build = ["pyinstaller>=6.10.0"]
 
 [project.scripts]
 nikon-mv1-to-exif = "nikon_mv1_to_exif.__main__:main"
